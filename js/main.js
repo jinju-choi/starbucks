@@ -80,7 +80,7 @@ new Swiper('.promotion .swiper-container', {
 new Swiper('.awards .swiper-container', {
   autoplay: true,
   loop: true,
-  spaveBetween: 30,
+  spaceBetween: 30,
   slidesPerView: 5,
   navigation: {
     prevEl: '.awards .swiper-prev',
