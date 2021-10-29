@@ -64,9 +64,9 @@ new Swiper('.promotion .swiper-container', {
   spaceBetween: 10, // 슬라이드사이 여백,
   centeredSlides: true, // 1번 슬라이드 가운데 보이기
   loop: true, // 무한슬라이드
-  autoplay: {
-    delay: 5000 // 슬라이드 시간
-  },
+  // autoplay: {
+  //   delay: 5000 // 슬라이드 시간
+  // },
   pagination: {
     el: '.promotion .swiper-pagination',// 페이지 번호(도트)요소 선택자
     clickable: true, //페이지 번호 클릭 제어
@@ -91,7 +91,7 @@ new Swiper('.awards .swiper-container', {
 
 
 
-//프로모션
+// 프로모션
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');
 let inHidePromotion = false; //보여져 있으면
