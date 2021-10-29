@@ -65,7 +65,7 @@ toTopEl.addEventListener('click', function () {
   });
 });
 ```
-top버튼 클릭시 상단으로 이동.
+> top버튼 클릭시 상단으로 이동.
 
 
 
@@ -77,7 +77,7 @@ top버튼 클릭시 상단으로 이동.
 
 ![starbucks-preview02](https://user-images.githubusercontent.com/89460582/139402999-1e4c6001-ffcb-4236-b1ed-a555fefc3d4b.gif)
 
-사용방법
+> 사용방법
 ```html
 <!-- in HEAD -->
 <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
