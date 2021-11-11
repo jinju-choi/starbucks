@@ -67,6 +67,14 @@ a {
   color: #333;
   background-color: #fff;
 }
+.btn.btn--green {
+  color: #fff;
+  border-color: transparent;
+  background-color: #046241;
+}
+.btn.btn--green:hover {
+  background-color: #029260;
+}
 .back-to-position {
   opacity: 0;
   transition: 1s;
